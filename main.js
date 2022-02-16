@@ -197,7 +197,7 @@ window.addEventListener("load", () => {
         load.style.bottom = `100%`;
         thehtml.style.overflowY = "scroll";
         spinLoader.style.display = "none";
-    }, 1500)
+    }, 1000)
 
 })
 
