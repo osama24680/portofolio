@@ -708,12 +708,12 @@ button{
     }
     header .navigation {
         /* z-index: -50; */
-        position: fixed;
+        position: absolute;
         background: #fff;
-        top: 8.53%;
+        top: 100%;
         right: -100%;
-        width: 45%;
-        height: 100%;
+        width: 50%;
+        height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
