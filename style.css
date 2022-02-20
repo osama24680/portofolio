@@ -687,6 +687,16 @@ button{
     display:none
 }
 /* =================----------------- media quiry ----------------- =================*/
+@media (min-width:1440px){
+    .work .content .card {
+        width: 350px;
+    }
+}
+@media (min-width:1024px) and (max-width:1440px){
+    .work .content .card {
+        width: 280px;
+    }
+}
 
 @media (max-width:1040px) {
     section {
