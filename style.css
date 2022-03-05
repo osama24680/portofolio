@@ -69,7 +69,7 @@ section {
     background: #3a6cf4;
     transform: translateX(-50%);
 }
-#load {
+/* #load {
     position: fixed;
     top: 0;
     left: 0;
@@ -103,7 +103,7 @@ section {
     animation-delay: 0.2s;
 }
 
-.sk-cube-grid .sk-cube2 {
+ .sk-cube-grid .sk-cube2 {
     -webkit-animation-delay: 0.3s;
     animation-delay: 0.3s;
 }
@@ -171,7 +171,7 @@ section {
         -webkit-transform: scale3D(0, 0, 1);
         transform: scale3D(0, 0, 1);
     }
-}
+} */
 
 
 .arrowUp {
@@ -487,6 +487,14 @@ button{
 .skills .content .col-right .bar .jquery:before {
     width: 60%;
     background: #0769ad;
+}
+.skills .content .col-right .bar .sass:before {
+    width: 70%;
+    background: #C36392;
+}
+.skills .content .col-right .bar .xd:before {
+    width: 70%;
+    background: #4F0033;
 }
 
 
