@@ -189,17 +189,17 @@ document.addEventListener("keydown", function (e) {
 
 
 
-let load = document.getElementById("load")
-let spinLoader = document.querySelector(".spinLoader")
+// let load = document.getElementById("load")
+// let spinLoader = document.querySelector(".spinLoader")
 
-window.addEventListener("load", () => {
-    let x = setInterval(() => {
-        load.style.bottom = `100%`;
-        thehtml.style.overflowY = "scroll";
-        spinLoader.style.display = "none";
-    }, 1000)
+// window.addEventListener("load", () => {
+//     let x = setInterval(() => {
+//         load.style.bottom = `100%`;
+//         thehtml.style.overflowY = "scroll";
+//         spinLoader.style.display = "none";
+//     }, 1000)
 
-})
+// })
 
 
 let about = document.querySelector(".about")
